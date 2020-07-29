@@ -1,2 +1,2 @@
 # GetViral-webapp
-getviral-webapp.netlify.app
+https://getviral-webapp.netlify.app/
