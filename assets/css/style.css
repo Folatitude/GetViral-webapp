@@ -8,9 +8,13 @@
 }
 body{
     font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden;
     background-color: var(--white);
 }
-main-head {
+.container-fluid, .stickyNav, .navbar{
+    background-color:var(--white);
+}
+.main-head {
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -44,7 +48,10 @@ input[type="text"]:focus {
       -webkit-box-shadow: none;
       -moz-box-shadow: none;
       box-shadow: none;
-  }
+}
+.hrule{
+    margin-top: 16rem;
+}
   
 @media (min-width: 300px) and (max-width:600px){
 select,
@@ -69,6 +76,12 @@ select,
 	height: 2px;
 	background-color: rgba(0, 0, 0, 0.08);
  }
+ .page-navigation button{
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
 }
 
 @media (min-width: 600px) and (max-width:768px){
@@ -94,6 +107,12 @@ select,
 	height: 2px;
 	background-color: rgba(0, 0, 0, 0.08);
  }
+ .page-navigation button{
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
 }
   
 @media (min-width: 992px) {
@@ -116,6 +135,12 @@ select,
 	height: 2px;
 	background-color: rgba(0, 0, 0, 0.08);
  }
+ .page-navigation button{
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
 }
   
   
@@ -134,7 +159,12 @@ select,
 	-ms-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-} 
+} .page-navigation button{
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
   
  
 /** ROOT STYLES **/
@@ -230,8 +260,14 @@ select,
         line-height: 1.438rem;
     }
     .text_caption{
-        font-size: 1.438rem;
+        font-size: 1rem;
         line-height: 2.063rem;
+    }
+    .page-navigation button{
+        font-weight: bold;
+        border: none;
+        outline: none;
+        border-radius: 5px;
     }
 }
 .bg_secondary{
@@ -255,10 +291,22 @@ hr{
     #upload-campaign{
         padding: 2rem 2rem 0;
     }
+    .page-navigation button{
+        font-weight: bold;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+    }
 }
 @media screen and (min-width: 768px){
     #upload-campaign{
         padding: 2rem 3.75rem 0;
+    }
+    .page-navigation button{
+        font-weight: bold;
+        border: none;
+        outline: none;
+        border-radius: 5px;
     }
 }
 #upload-campaign .progress{
@@ -269,6 +317,12 @@ hr{
 @media screen and (min-width:400px){
     #upload-campaign .progress{
         width: 12.5rem;
+}
+.page-navigation button{
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 5px;
 }
 }
 @media screen and (min-width: 500px){
@@ -285,4 +339,5 @@ hr{
     border: none;
     outline: none;
     border-radius: 5px;
+}
 }
