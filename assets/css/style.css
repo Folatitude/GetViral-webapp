@@ -152,10 +152,10 @@ hr{
 }
 select:required:invalid {
     color: #666;
+    font-size: 13.5px;
   }
   option[value=""][disabled] {
     display: none;
-    font-size: .6rem !important;
   }
   option {
     color: #000;
@@ -178,7 +178,7 @@ select,
 .redirect {	 
     display: block;
    	width: 100% !important;
-    height: 55px;
+    height: 45px;
     background-color: inherit;
     border: 1px solid rgba(51, 51, 51, 0.7);
     border-radius: 3px;
@@ -210,7 +210,7 @@ select,
 select,
 .redirect {	 
    width: 100% !important;
-  height: 55px;
+  height: 45px;
   border: 1px solid rgba(51, 51, 51, 0.7);
   background-color: inherit;
   border-radius: 3px;
@@ -241,7 +241,7 @@ select,
     select,
     .redirect {	 
        width: 100% !important;
-      height: 55px;
+      height: 45px;
       border: 1px solid rgba(51, 51, 51, 0.7);
       background-color: inherit;
       border-radius: 3px;
@@ -273,7 +273,7 @@ select,
 select,
 .redirect {	 
 	width:700px !important;
-    height: 55px;
+    height: 45px;
     border: 1px solid rgba(51, 51, 51, 0.7);
     background-color: inherit;
     border-radius: 3px;
@@ -303,7 +303,7 @@ select,
 select,
 .redirect {	 
   	width: 700px !important;
-    height: 55px;
+    height: 45px;
     border: 1px solid rgba(51, 51, 51, 0.7);
     background-color: inherit;
     border-radius: 3px;
