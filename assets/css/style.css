@@ -132,6 +132,7 @@ hr{
     border: none;
     outline: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 /* BODY STYLING */
 .main-head {
